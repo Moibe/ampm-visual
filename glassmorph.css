@@ -16,7 +16,7 @@
   --button-inactive: rgb(249 250 251 / 55%);
   --dropdown-bg: #21242d;
   --dropdown-hover: rgb(42 46 60);
-  --popup-bg: rgb(22 25 37);
+  --popup-bg: rgb(25, 66, 231);
   --search-bg: #14162b;
   --overlay-bg: rgba(36, 39, 59, 0.3);
   --scrollbar-bg: rgb(1 2 3 / 40%);
@@ -32,7 +32,7 @@
   --overlay-bg: rgb(255 255 255 / 30%);
   --dropdown-hover: rgb(236 236 236);
   --border-color: rgb(255 255 255 / 35%);
-  --popup-bg: rgb(255 255 255);
+  --popup-bg: rgb(236, 100, 168);
   --hover-menu-bg: rgba(255 255 255 / 35%);
   --scrollbar-bg: rgb(255 253 253 / 57%);
   --content-title-color: --theme-color;
@@ -43,7 +43,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-body {
+/* body {
   font-family: var(--body-font);
   background-image: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg);
   background-size: cover;
@@ -55,7 +55,7 @@ body {
   padding: 2em;
   width: 100%;
   height: 100vh;
-}
+} */
 @media screen and (max-width: 480px) {
   body {
     padding: 0.8em;
@@ -705,7 +705,7 @@ body.light-mode .video-bg:before {
 
 .pop-up {
   position: absolute;
-  padding: 30px 40px;
+  padding: 10px 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -714,7 +714,7 @@ body.light-mode .video-bg:before {
   transition: all 0.3s;
   z-index: 10;
   background-color: var(--popup-bg);
-  width: 500px;
+  width: 600px;
   visibility: hidden;
   opacity: 0;
   border-radius: 6px;
@@ -740,10 +740,11 @@ body.light-mode .video-bg:before {
 }
 .pop-up__subtitle {
   white-space: normal;
-  margin: 20px 0;
+  margin: 0px 0;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.8em;
+  
 }
 .pop-up__subtitle a {
   color: var(--theme-color);

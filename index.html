@@ -80,91 +80,42 @@
         <p id="renglon1"></p>
         <p id="renglon2">Tienes una tarjeta aprobada por $50,000 MXN.</p>
         <p id="renglon3">Si te interesa solo comprueba ser cliente Paypal.</p>
-        <button class="content-button status-button">Obtener tarjeta</button>
-    </div>
-
-    
-    
-   
-
-    
-
-    <div class="bubble">
-        <div class="button-wrapper">
-
-              
-            
-            <div class="pop-up">
-
-               
-                
-              
-                
-                <div class="pop-up__title">Importante
-  <!-- tache para cerrar -->
-                    <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
-                        <circle cx="12" cy="12" r="10" />
-                        <path d="M15 9l-6 6M9 9l6 6" />
-                        </svg>
-
-
-                </div>
-                
-               
-                <div class="pop-up__subtitle">Debes ser cliente de paypal.</div>
-                <!-- Ejemplo con link: -->
-                <!-- <div class="pop-up__subtitle">Debes ser cliente de paypal. <a href="#">Learn more</a></div> -->
-                
-                <div class="checkbox-wrapper">
-                    <input type="checkbox" id="check1" class="checkbox">
-                    <label for="check1">Import previous settings and preferences</label>
-                </div>
-                
-                
-            </div>
-        </div>
-    </div>
-
-   <!--  <div class="bubble"><p>Hola, aquí va la ayuda...</p>
-        <div class="tooltip">
-            <div class="tooltip-spacing">
-                <div class="tooltip-bg1"></div>
-                <div class="tooltip-bg2"></div>
-                <div class="tooltip-text">??????</div>
-            </div>
-        </div>
-          <svg class="popup-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 130" height="130" width="300">
-            <path d="M36.5 12.695c15.9-2.4 32.556-4.284 82.977-3.815 79.67.74 121.785.26 145.294 5.51 18.483 4.13 34.333 11.696 33.382 32.11l-1.696 36.39c-1.01 21.68-11.678 29.377-21.934 30.838-14.884 2.12-29.72 3.52-54.512-.848C232.522 118.263 233.5 129 233.5 129s-1.992-7.686-32.218-14c-17.933-5.043-118.204 3.687-163.51-2.544-21.317-2.932-33.706-8.26-34.228-27.022L2.272 39.717c-.46-16.58 12.34-23.718 34.23-27.022z" fill="#303030" stroke="#000" />
-          </svg>
-          <svg class="popup-outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 130" height="130" width="300">
-            <g stroke-width="2" stroke-linecap="round">
-              <path class="popup-outline-left" d="M233.5 129s-1.992-7.686-32.218-14c-17.933-5.043-118.204 3.687-163.51-2.544-21.317-2.932-33.706-8.26-34.228-27.022L2.272 39.717c-.46-16.58 12.34-23.718 34.23-27.022 15.897-2.4 32.554-4.284 82.975-3.815" fill="none" stroke="#303030" />
-              <path class="popup-outline-right" d="M119.477 8.88c79.67.74 121.785.26 145.294 5.51 18.483 4.13 34.333 11.696 33.382 32.11l-1.696 36.39c-1.01 21.68-11.678 29.377-21.934 30.838-14.884 2.12-29.72 3.52-54.512-.848C232.522 118.263 233.5 129 233.5 129" fill="none" stroke="#303030" />
-            </g>
-          </svg>
-
-          <div class="popup-text">
-            Your photos are safely stored in a data center in your geographical
-            zone only accessible by you. Don't worry. You're in good hands!
-          </div>
-
-    </div> -->
-
-    <div id="disclamer" class="disclaimer">
-        Promoción válida solo para clientes Paypal.
+        <div class="divBotonObten"><button class="content-button status-button botonObten">Obtener tarjeta</button></div>
         
     </div>
 
-   
-
-    
-    <div id="divBoton" style ="display: none;">   
-        <input type="submit" value="Paypal"  id="btnSubmit" style="width: auto;">
-        <div id="btnPaypal"  type="submit"> 
+    <div id="disclamer" class="disclaimer delineador_rosa">
+        Promoción válida solo para clientes Paypal.
     </div>
-     
     </body>
 
+    <div class="bubble">
+        <div class="button-wrapper">
+         <div class="pop-up delineador_rosa">
+         <!-- tache para cerrar -->
+         <div>
+         <svg class="close" width="24" height="24" fill="white" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M15 9l-6 6M9 9l6 6" />
+            </svg>
+         </div> 
+         <div class="">
+                <div class="pop-up__subtitle">☑️ Debes ser cliente de paypal.</div>
+                <div class="pop-up__subtitle">☑️ Recibirás una tarjeta física. </div>
+                <div class="pop-up__subtitle">☑️ Tu tarjeta es intransferible ya que estará a tu nombre.</div>
+                <div class="pop-up__subtitle">☑️ Realiza un pago de $100MXN para comprobar que eres el dueño.</div>
+            </div>
+            <div class="contenedor_proceder">
+                <div id="divBoton" class="">   
+                    <input type="submit" value="Proceder"  id="btnSubmit" style="width: auto;">
+                    <div id="btnPaypal"  type="submit"> 
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    
     
 
    <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
