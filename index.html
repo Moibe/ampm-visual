@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="tooltip.css">
     <link rel="stylesheet" href="glassmorph.css">
+    <link rel="stylesheet" href="paypalbuttons.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
 
 </head>
-    <body onload="getDatosCliente()">
+    <body onload="init()">
         <!-- <div class="video-bg">
             <video width="320" height="240" autoplay loop muted>
              <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
@@ -107,10 +108,14 @@
             </div>
             <div class="contenedor_proceder">
                 <div id="divBoton" class="">   
-                    <input type="submit" value="Proceder"  id="btnSubmit" style="width: auto;">
-                    <div id="btnPaypal"  type="submit"> 
-                </div>
-            </div>
+                    <input type="submit" value="Proceder"  id="btnSubmit" style="width: auto;  display: none;">
+                    <div id="btnProceder"  type="submit"> </div>
+                </div>            
+
+                <div id="btnPaypal" type="submit"> 
+                    <p id="referencia"></p>
+                  </div>
+            
             </div>
         </div>
     </div>
@@ -124,7 +129,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 <script src="./index.js"></script>
+<script src="./animacion.js"></script>
 <script src="./glassmorph.js"></script>
+<script src="./herramientas.js"></script>
     
    
 
