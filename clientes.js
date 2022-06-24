@@ -1,5 +1,7 @@
 function getDatosCliente(){
 
+
+
 //obten los países.
 jsonClientes = JSON.parse(clientes);
 console.log("Éstos son los clientes...");
@@ -8,10 +10,10 @@ console.log(jsonClientes);
 item = 'Spain';
 cliente_especifico = jsonClientes[item];
 
-
-elementos = document.getElementById('elementos');
-elementos.innerHTML = cliente_especifico['Name'];
-
+elementos = document.getElementById('renglon1');
+nombre = cliente_especifico['Name'];
+texto_completo = "Hola " + nombre + " bienvenido."
+elementos.innerHTML = texto_completo;
 
 }
 
