@@ -2,6 +2,12 @@ function init(nodeparam){
 
     if(nodeparam==null){
         console.log("No recibí parámetro, sigo mi camino normal...");
+       
+        let display = document.getElementById('info_display');
+        console.log("Esto es el display:");
+        console.log(display);
+        addTextRow("Hola mundo...", 1 ,"intro_uno", display);
+
         getDatosCliente();
         construyePaypal();
     }else{

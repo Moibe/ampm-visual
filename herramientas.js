@@ -34,3 +34,23 @@ function construyePaypal(){
     divBtnPaypal.insertBefore(paypalScript, currentDiv);
 
 }
+
+function addTextRow(text, delay, id, display) {
+    timing_elements = 1;
+        
+    let p = document.createElement('p');
+    // if id is not null then add id to the p element
+    if (id != "") {
+        p.id = id;
+    }
+    p.innerHTML = text;
+
+    // if delay is not 0 then add delay to the p element
+    if (delay != 0) {
+        setTimeout(() => {
+            display.appendChild(p);
+        }, (timing_elements + delay) * 1000);
+    } else {
+        display.appendChild(p);
+    }
+}
