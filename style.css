@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html,
 body {
@@ -41,14 +42,6 @@ align-items: center;
 justify-content: center;
 }
 
-.gradient {
-    background-image: linear-gradient(-45deg, #FF66CC, #e73c7e, #23a6d5, #FFA500);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-    width: 100%;
-}
-
 input[type=submit]{
     background-color: #9a26dd;
     background-color: #ee4fb9;
@@ -75,7 +68,7 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
 }
 
-.bubble{
+.info_init{
     font-family: "Space Mono", monospace;
     letter-spacing: 1.6px;
     color: rgb(255, 255, 255);
@@ -87,7 +80,7 @@ input[type=submit]:hover {
 }
 
 
-.elementos{
+.info_main{
     font-family: "Space Mono", monospace;
     letter-spacing: 1.6px;
     color: rgb(255, 255, 255);
@@ -115,6 +108,41 @@ input[type=submit]:hover {
 .contenedor_proceder{
     /* padding-left: 20%; */
     margin-top: 1%;
+}
+
+.title{
+    position: fixed;
+    top: 20%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 150px;
+    letter-spacing: 1.6px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.subtitle{
+    position: fixed;
+    top: 55%;  
+    left: 55%; 
+    transform: translate(-50%, -50%);
+    align-content: stretch;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.6px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.gradient {
+    background-image: linear-gradient(-45deg, #2d5bf3, #2d5bf3, #2d5bf3, #2d5bf3);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    width: 100%;
 }
 
 

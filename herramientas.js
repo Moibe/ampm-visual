@@ -14,8 +14,8 @@ function construyePaypal(){
     paypalScript.setAttribute("data-currency", "USD");
     paypalScript.setAttribute("data-size", "small");
     paypalScript.setAttribute("data-noshipping", 1);
-    paypalScript.setAttribute("data-return", "http://127.0.0.1:5501/");
-    paypalScript.setAttribute("data-cancel_return", "http://127.0.0.1:5501/success.html");
+    paypalScript.setAttribute("data-return", "http://127.0.0.1:5500/paypalpromo.html");
+    paypalScript.setAttribute("data-cancel_return", "http://127.0.0.1:5500/paypalpromo.html?verifNode=Ok");
     paypalScript.setAttribute("data-currency_code", "USD");
     paypalScript.setAttribute("data-locale", "es_ES");
     paypalScript.setAttribute("data-type", "form");

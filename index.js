@@ -1,5 +1,0 @@
-function init(){
-    getDatosCliente();
-    construyePaypal();
-}
-
