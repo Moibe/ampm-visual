@@ -5,7 +5,8 @@ html,
 body {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
     font-family: "Space Mono", monospace;
     letter-spacing: 1.6px;
   }
@@ -36,7 +37,7 @@ div{
 .svg-center {
 width: 100%;
 height: 100%;
-border: 1px solid rgb(0, 0, 0);
+border: 0px solid rgb(0, 0, 0);
 margin: 0px;
 align-items: center;
 justify-content: center;
