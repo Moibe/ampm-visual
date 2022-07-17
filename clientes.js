@@ -12,7 +12,7 @@ cliente_especifico = jsonClientes[item];
 
 elementos = document.getElementById('renglon1');
 nombre = cliente_especifico['Name'];
-texto_completo = "Hola " + nombre + " bienvenido."
+texto_completo = "Hola " + nombre + " bienvenid@."
 elementos.innerHTML = texto_completo;
 
 }
