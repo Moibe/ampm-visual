@@ -15,6 +15,14 @@ div{
     border: 0px solid rgb(247, 243, 24);
   }
 
+.gradient {
+    background-image: linear-gradient(-45deg, #2d5bf3, #2d5bf3, #2d5bf3, #2d5bf3);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    width: 100%;
+}
+
 .delineador_amarillo {
     border: 5px solid rgb(247, 243, 24);
     height: 100%;
@@ -78,6 +86,7 @@ input[type=submit]:hover {
     top: 65%;  
     left: 55%; 
     transform: translate(-50%, -50%);
+    border: 0px solid rgb(255, 255, 255);
 }
 
 
@@ -90,7 +99,7 @@ input[type=submit]:hover {
     top: 30%;  
     left: 75%; 
     transform: translate(-50%, -50%);
-    
+    border: 0px solid rgb(255, 255, 255);    
 }
 
 .divBotonObten{
@@ -111,39 +120,31 @@ input[type=submit]:hover {
     margin-top: 1%;
 }
 
-.title{
+.texto_totales{
     position: fixed;
     top: 20%;  
     left: 50%; 
     transform: translate(-50%, -50%);
-
+    /* display: none; */
     font-family: 'Roboto', sans-serif;
-    font-size: 150px;
+    font-size: 80px;
     letter-spacing: 1.6px;
     color: rgb(255, 255, 255);
     font-weight: 800;
 }
 
-.subtitle{
+.numero_totales{
     position: fixed;
     top: 55%;  
     left: 55%; 
     transform: translate(-50%, -50%);
     align-content: stretch;
-
+    /* display: none; */
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 80px;
     letter-spacing: 1.6px;
     color: rgb(255, 255, 255);
     font-weight: 800;
-}
-
-.gradient {
-    background-image: linear-gradient(-45deg, #2d5bf3, #2d5bf3, #2d5bf3, #2d5bf3);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
-    width: 100%;
 }
 
 
