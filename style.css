@@ -122,7 +122,7 @@ input[type=submit]:hover {
 
 #div-datos-generales{
     position: absolute;
-    border: 0px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     top: 12%; 
     left: 15%;
 }
@@ -159,7 +159,6 @@ input[type=submit]:hover {
   }
 
 
-
 #texto-envios{top: 10%; left: 0%;}
 #numero-envios{top: 22%; left: 10%;}
 
@@ -168,6 +167,21 @@ input[type=submit]:hover {
 
 #texto-clientes{top: 65%; left: 0%;}
 #numero-clientes{top: 75%; left: 5%;}
+
+/* Barras */
+
+#columna12{
+    position: absolute;
+    border: 5px solid rgb(216, 31, 31);
+    top: 10%; 
+    left: 50%;
+    width: 30%;
+}
+
+.texto-info{
+    transform: rotateX(180deg);
+    color: white;
+}
 
 
 

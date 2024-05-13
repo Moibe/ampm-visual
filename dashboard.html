@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="tooltip.css"> -->
+    <link rel="stylesheet" href="progress.css">
     <link rel="stylesheet" href="glassmorph.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
@@ -87,6 +87,8 @@
 </svg>
 
 </body> 
+
+<!-- Elementos html: -->
 <div id="div-datos-generales">
 
     <div class="contenedor-datos">
@@ -104,7 +106,55 @@
         <p class="numeros" id="numero-clientes">30🏪</p>
     </div>
     
-    
+</div>
+
+<!-- Barras -->
+
+<div id="columna12">
+            
+    <!-- Primera Barra -->
+        <div class="chart">
+            <div id="barra" class="bar bar-20 rojo-ampm">
+                <div class="face top">
+                    <div class="growing-bar"></div>
+                </div>
+                <div class="face side-0">
+                    <div class="growing-bar"></div>
+                </div>
+                <div class="face floor">
+                    <div class="growing-bar"></div>
+                </div>
+                <div class="face side-a"></div>
+                <div class="face side-b"></div>
+                <div class="face side-1">
+                    <div class="growing-bar">
+                        <p class="texto-info">Pendiente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Segunda Barra -->
+    <div class="chart">
+        <div id="barra" class="bar bar-80 azul-ampm">
+            <div class="face top">
+                <div class="growing-bar"></div>
+            </div>
+            <div class="face side-0">
+                <div class="growing-bar"></div>
+            </div>
+            <div class="face floor">
+                <div class="growing-bar"></div>
+            </div>
+            <div class="face side-a"></div>
+            <div class="face side-b"></div>
+            <div class="face side-1">
+                <div class="growing-bar">
+                    <p class="texto-info">Avance</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="./animacion.js"></script>
