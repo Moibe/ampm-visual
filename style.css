@@ -120,32 +120,54 @@ input[type=submit]:hover {
     margin-top: 1%;
 }
 
-.texto_totales{
-    position: fixed;
-    top: 20%;  
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    /* display: none; */
-    font-family: 'Roboto', sans-serif;
-    font-size: 80px;
-    letter-spacing: 1.6px;
-    color: rgb(255, 255, 255);
-    font-weight: 800;
+#div-datos-generales{
+    position: absolute;
+    border: 0px solid rgb(255, 255, 255);
+    top: 12%; 
+    left: 15%;
 }
 
-.numero_totales{
-    position: fixed;
-    top: 55%;  
-    left: 55%; 
+.textos{
+    /* position: relative; */
     transform: translate(-50%, -50%);
-    align-content: stretch;
     /* display: none; */
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
     letter-spacing: 1.6px;
     color: rgb(255, 255, 255);
     font-weight: 800;
+    margin-bottom: -20px;
 }
+
+.numeros{
+    /* position: relative; */
+    align-content: stretch;
+    transform: translate(-50%, -50%);
+    /* display: none; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    letter-spacing: 1.6px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    margin-top: -20px;
+    margin-left: 25px;
+}
+
+.contenedor-datos {
+    text-align: left;
+    border: 0px solid rgb(130, 222, 26);
+  }
+
+
+
+#texto-envios{top: 10%; left: 0%;}
+#numero-envios{top: 22%; left: 10%;}
+
+#texto-rutas{top: 10%; left: 0%;}
+#numero-rutas{top: 50%; left: 10%;}
+
+#texto-clientes{top: 65%; left: 0%;}
+#numero-clientes{top: 75%; left: 5%;}
 
 
 
